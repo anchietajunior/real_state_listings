@@ -59,8 +59,12 @@ rails import_from_csv https://transport.productsup.io/f3a2e50f7147b3825f50/chann
 
 Using the SimpleCov gem for this application.
 
+![Screen Shot 2022-10-10 at 13 37 21](https://user-images.githubusercontent.com/8007754/194916624-0f367861-1efa-43d9-8f51-f9834e8efebb.png)
+
 
 ## Results in a view using Hotwire (turbo frame) and Stimulus.
 
 This page is just to show how we can handle views using the Hotwire and Stimulus way in Rails
 without a lot of Javascripts in our front-end applications.
+
+![Screen Shot 2022-10-10 at 13 37 35](https://user-images.githubusercontent.com/8007754/194916646-664f2ba4-6294-4a37-ae75-477285b679a1.png)
