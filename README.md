@@ -45,6 +45,10 @@ bundle install
 rails db:create && rails db:migrate
 ```
 
+## Data normalization
+
+Instead of using a field called city, I created a table called city and I always search this table by the name of the city, so we save on the size of the main table and normalize the data.
+
 ## Importing data from a csv File
 
 The import process uses a task called import_from_csv, this task accepts an argument, the url to the file.
