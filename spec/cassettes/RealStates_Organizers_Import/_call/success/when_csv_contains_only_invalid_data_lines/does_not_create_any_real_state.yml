@@ -1,0 +1,76 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://gist.githubusercontent.com/anchietajunior/fb6f91338842b0a66177e86052957d25/raw/aa4daa8c9c9448ecde7da2bc2fdbd992fca07cd6/listings3.csv
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '11704'
+      Cache-Control:
+      - max-age=300
+      Content-Security-Policy:
+      - default-src 'none'; style-src 'unsafe-inline'; sandbox
+      Content-Type:
+      - text/plain; charset=utf-8
+      Etag:
+      - W/"8df7d7d6391f1724487ef3ba63f9a60e3eda7312d21c8d2c8a906a9dfd2fc466"
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Github-Request-Id:
+      - '0806:0CFA:2ABC2C:391953:6343793E'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Mon, 10 Oct 2022 01:46:59 GMT
+      Via:
+      - 1.1 varnish
+      X-Served-By:
+      - cache-gig2250037-GIG
+      X-Cache:
+      - HIT
+      X-Cache-Hits:
+      - '1'
+      X-Timer:
+      - S1665366420.839360,VS0,VE1
+      Vary:
+      - Authorization,Accept-Encoding,Origin
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Fastly-Request-Id:
+      - 60115e16a3b2964ca50ed4574ade8eca264b2ab8
+      Expires:
+      - Mon, 10 Oct 2022 01:51:59 GMT
+      Source-Age:
+      - '85'
+    body:
+      encoding: UTF-8
+      string: |-
+        centre_id,brand,center_status,address_line1,address_line2,address_line3,city,state_or_province,zip_or_postal_code,country_iso_code,longitude,latitude,address_number,building_name,street_name,floor_numbers,suite_numbers,unit_numbers,product_category,product_name,building_description,local_area_description,total_building_size,area_size_unit,min_desks,max_desks,centre_open_date,min_term,max_term,min_cost,max_cost,currency,featured_image,external_building_image,high_res_images,high_res_image_tags,low_res_images,low_res_image_tags,feature_24_hour_access,feature_24_hour_cctv_monitoring,feature_airport_location,feature_bicycle_storage,feature_breakout_areas,feature_business_park_location,feature_city_town_centre,feature_day_care,feature_disabled_facilities,feature_double_glazing,feature_elevator,feature_gym_and_fitness_room,feature_lounge_area,feature_major_transport_links,feature_meeting_rooms,feature_on_site_dry_cleaning,feature_on_site_lunch_restaurant,feature_outside_seating_area_terrace,feature_parking,feature_raised_floors,feature_regusnet_high_speed_internet,feature_secure_underground_parking,feature_showers,feature_sky_tv,feature_smoking_areas,feature_suspended_ceilings,feature_temp_control,feature_vending_machines,feature_videoconferencing_studio,feature_voicemail,feature_on_site_sandwich_coffee_bar,feature_sandwich_service
+        648,REGUS,INACTIVE,"1000 Northwest Street","Mid-Town Brandy Wine, Suite 1200",,Wilmington,DE,19801,USA,-75.55009146627,39.747328612022,1000,"Mid-Town Brandy Wine","Northwest Street",,1200,,"Long Term Office","Long Term Office - 1 Workstation","The business center is located in the Brandywine Building at the heart of the downtown area, and ideally placed to access the corporate headquarters of many Fortune 500 companies, especially banks. As the home of hundreds of US companies, Wilmington bills itself as the Corporate Capital of the World. The city's major employment sectors are trade, transportation and utilities services, followed by professional and business. As the state's financial center, Wilmington has a strong and growing financial sector presence, supported by incentives for banks and other financial institutions to relocate there. Delaware's federal and state court houses and the county court are within walking distance.","In the heart of Downtown, Delaware's federal and state court houses and the county court are within walking distance.",12713.1088,sqm,1,6,"2001-01-01 00:00:00+00:00",24,999,7035.0,,USD,https://assets.iwgplc.com/image/upload/CentreImagery/4214/4214_9.jpg,http://assets.regus.com/images/648/businesscentre/1_454x340.jpg,"http://assets.iwgplc.com/image/upload/CentreImagery/648/648_5.jpg,http://assets.iwgplc.com/image/upload/CentreImagery/648/648_3.jpg,http://assets.iwgplc.com/image/upload/CentreImagery/648/648_7.jpg,http://assets.iwgplc.com/image/upload/CentreImagery/648/648_4.jpg,http://assets.iwgplc.com/image/upload/CentreImagery/648/648_6.jpg,http://assets.iwgplc.com/image/upload/CentreImagery/648/648_2.jpg,http://assets.iwgplc.com/image/upload/CentreImagery/648/648_8.jpg,http://assets.iwgplc.com/image/upload/CentreImagery/648/648_1.jpg,http://assets.iwgplc.com/image/upload/CentreImagery/648/648_9.jpg","Breakout_space,CentreNumber648,Common_area,Highres,No_people,Regus,hero|CentreNumber648,Highres,Internal,Meeting_room,No_people,Regus|CentreNumber648,External,Highres,No_people,Office,Regus|CentreNumber648,External,Highres,No_people,Office,Regus|CentreNumber648,Common_area,Highres,Kitchen,No_people,Regus|CentreNumber648,Common_area,Highres,No_people,Reception,Regus|CentreNumber648,Co-Working,Highres,No_people,Regus,Reserved_desk|CentreNumber648,Facade,Highres,No_people,Outside,Regus|CentreNumber648,Highres,Internal,No_people,Office,Regus",,,False,True,False,False,True,False,True,False,True,False,False,False,False,True,True,False,True,False,False,False,False,True,False,False,False,False,False,True,False,False,False,True
+        648,REGUS,ACTIVE,"1000 Northwest Street","Mid-Town Brandy Wine, Suite 1200",,Wilmington,DE,20801,USA,-75.55009146627,39.747328612022,1000,"Mid-Town Brandy Wine","Northwest Street",,1200,,"Long Term Office","Long Term Office - 3 Workstations","The business center is located in the Brandywine Building at the heart of the downtown area, and ideally placed to access the corporate headquarters of many Fortune 500 companies, especially banks. As the home of hundreds of US companies, Wilmington bills itself as the Corporate Capital of the World. The city's major employment sectors are trade, transportation and utilities services, followed by professional and business. As the state's financial center, Wilmington has a strong and growing financial sector presence, supported by incentives for banks and other financial institutions to relocate there. Delaware's federal and state court houses and the county court are within walking distance.","In the heart of Downtown, Delaware's federal and state court houses and the county court are within walking distance.",12713.1088,sqm,1,6,"2001-01-01 00:00:00+00:00",24,999,1407.0,,USD,https://assets.iwgplc.com/image/upload/CentreImagery/627/627_7.jpg,http://assets.regus.com/images/648/businesscentre/1_454x340.jpg,"http://assets.iwgplc.com/image/upload/CentreImagery/648/648_5.jpg,http://assets.iwgplc.com/image/upload/CentreImagery/648/648_3.jpg,http://assets.iwgplc.com/image/upload/CentreImagery/648/648_7.jpg,http://assets.iwgplc.com/image/upload/CentreImagery/648/648_4.jpg,http://assets.iwgplc.com/image/upload/CentreImagery/648/648_6.jpg,http://assets.iwgplc.com/image/upload/CentreImagery/648/648_2.jpg,http://assets.iwgplc.com/image/upload/CentreImagery/648/648_8.jpg,http://assets.iwgplc.com/image/upload/CentreImagery/648/648_1.jpg,http://assets.iwgplc.com/image/upload/CentreImagery/648/648_9.jpg","Breakout_space,CentreNumber648,Common_area,Highres,No_people,Regus,hero|CentreNumber648,Highres,Internal,Meeting_room,No_people,Regus|CentreNumber648,External,Highres,No_people,Office,Regus|CentreNumber648,External,Highres,No_people,Office,Regus|CentreNumber648,Common_area,Highres,Kitchen,No_people,Regus|CentreNumber648,Common_area,Highres,No_people,Reception,Regus|CentreNumber648,Co-Working,Highres,No_people,Regus,Reserved_desk|CentreNumber648,Facade,Highres,No_people,Outside,Regus|CentreNumber648,Highres,Internal,No_people,Office,Regus",,,False,True,False,False,True,False,True,False,True,False,False,False,False,True,True,False,True,False,False,False,False,True,False,False,False,False,False,True,False,False,False,True
+        648,REGUS,INACTIVE,"1000 Northwest Street","Mid-Town Brandy Wine, Suite 1200",,Wilmington,DE,19801,USA,-75.55009146627,39.747328612022,1000,"Mid-Town Brandy Wine","Northwest Street",,1200,,"Long Term Office","Long Term Office - 1 Workstation","The business center is located in the Brandywine Building at the heart of the downtown area, and ideally placed to access the corporate headquarters of many Fortune 500 companies, especially banks. As the home of hundreds of US companies, Wilmington bills itself as the Corporate Capital of the World. The city's major employment sectors are trade, transportation and utilities services, followed by professional and business. As the state's financial center, Wilmington has a strong and growing financial sector presence, supported by incentives for banks and other financial institutions to relocate there. Delaware's federal and state court houses and the county court are within walking distance.","In the heart of Downtown, Delaware's federal and state court houses and the county court are within walking distance.",12713.1088,sqm,1,6,"2001-01-01 00:00:00+00:00",24,999,1876.0,,USD,http://assets.iwgplc.com/image/upload/CentreImagery/648/648_9.jpg,http://assets.regus.com/images/648/businesscentre/1_454x340.jpg,"http://assets.iwgplc.com/image/upload/CentreImagery/648/648_5.jpg,http://assets.iwgplc.com/image/upload/CentreImagery/648/648_3.jpg,http://assets.iwgplc.com/image/upload/CentreImagery/648/648_7.jpg,http://assets.iwgplc.com/image/upload/CentreImagery/648/648_4.jpg,http://assets.iwgplc.com/image/upload/CentreImagery/648/648_6.jpg,http://assets.iwgplc.com/image/upload/CentreImagery/648/648_2.jpg,http://assets.iwgplc.com/image/upload/CentreImagery/648/648_8.jpg,http://assets.iwgplc.com/image/upload/CentreImagery/648/648_1.jpg,http://assets.iwgplc.com/image/upload/CentreImagery/648/648_9.jpg","Breakout_space,CentreNumber648,Common_area,Highres,No_people,Regus,hero|CentreNumber648,Highres,Internal,Meeting_room,No_people,Regus|CentreNumber648,External,Highres,No_people,Office,Regus|CentreNumber648,External,Highres,No_people,Office,Regus|CentreNumber648,Common_area,Highres,Kitchen,No_people,Regus|CentreNumber648,Common_area,Highres,No_people,Reception,Regus|CentreNumber648,Co-Working,Highres,No_people,Regus,Reserved_desk|CentreNumber648,Facade,Highres,No_people,Outside,Regus|CentreNumber648,Highres,Internal,No_people,Office,Regus",,,False,True,False,False,True,False,True,False,True,False,False,False,False,True,True,False,True,False,False,False,False,True,False,False,False,False,False,True,False,False,False,True
+        647,REGUS,ACTIVE,"1000 Northwest Street","Mid-Town Brandy Wine, Suite 1200",,Wilmington,DE,19802,USA,-75.55009146627,39.747328612022,1000,"Mid-Town Brandy Wine","Northwest Street",,1200,,"Long Term Office","Long Term Office - 2 Workstations","The business center is located in the Brandywine Building at the heart of the downtown area, and ideally placed to access the corporate headquarters of many Fortune 500 companies, especially banks. As the home of hundreds of US companies, Wilmington bills itself as the Corporate Capital of the World. The city's major employment sectors are trade, transportation and utilities services, followed by professional and business. As the state's financial center, Wilmington has a strong and growing financial sector presence, supported by incentives for banks and other financial institutions to relocate there. Delaware's federal and state court houses and the county court are within walking distance.","In the heart of Downtown, Delaware's federal and state court houses and the county court are within walking distance.",12713.1088,sqm,1,6,"2001-01-01 00:00:00+00:00",24,999,7035.0,,USD,https://assets.iwgplc.com/image/upload/CentreImagery/4214/4214_9.jpg,http://assets.regus.com/images/648/businesscentre/1_454x340.jpg,"http://assets.iwgplc.com/image/upload/CentreImagery/648/648_5.jpg,http://assets.iwgplc.com/image/upload/CentreImagery/648/648_3.jpg,http://assets.iwgplc.com/image/upload/CentreImagery/648/648_7.jpg,http://assets.iwgplc.com/image/upload/CentreImagery/648/648_4.jpg,http://assets.iwgplc.com/image/upload/CentreImagery/648/648_6.jpg,http://assets.iwgplc.com/image/upload/CentreImagery/648/648_2.jpg,http://assets.iwgplc.com/image/upload/CentreImagery/648/648_8.jpg,http://assets.iwgplc.com/image/upload/CentreImagery/648/648_1.jpg,http://assets.iwgplc.com/image/upload/CentreImagery/648/648_9.jpg","Breakout_space,CentreNumber648,Common_area,Highres,No_people,Regus,hero|CentreNumber648,Highres,Internal,Meeting_room,No_people,Regus|CentreNumber648,External,Highres,No_people,Office,Regus|CentreNumber648,External,Highres,No_people,Office,Regus|CentreNumber648,Common_area,Highres,Kitchen,No_people,Regus|CentreNumber648,Common_area,Highres,No_people,Reception,Regus|CentreNumber648,Co-Working,Highres,No_people,Regus,Reserved_desk|CentreNumber648,Facade,Highres,No_people,Outside,Regus|CentreNumber648,Highres,Internal,No_people,Office,Regus",,,False,True,False,False,True,False,True,False,True,False,False,False,False,True,True,False,True,False,False,False,False,True,False,False,False,False,False,True,False,False,False,True
+  recorded_at: Mon, 10 Oct 2022 01:46:59 GMT
+recorded_with: VCR 6.1.0

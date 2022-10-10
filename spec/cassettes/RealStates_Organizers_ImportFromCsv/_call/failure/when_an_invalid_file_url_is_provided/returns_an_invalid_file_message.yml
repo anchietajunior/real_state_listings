@@ -1,0 +1,166 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://gist.githubusercontent.com/anchietajunior/listings.csv
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      Connection:
+      - close
+      Content-Length:
+      - '0'
+      Server:
+      - Varnish
+      Retry-After:
+      - '0'
+      Location:
+      - https://gist.githubusercontent.com/anchietajunior/listings.csv
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Mon, 10 Oct 2022 01:50:22 GMT
+      Via:
+      - 1.1 varnish
+      X-Served-By:
+      - cache-gig2250070-GIG
+      X-Cache:
+      - HIT
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1665366623.505769,VS0,VE0
+      Access-Control-Allow-Origin:
+      - "*"
+      Expires:
+      - Mon, 10 Oct 2022 01:55:22 GMT
+      Vary:
+      - Authorization,Accept-Encoding
+    body:
+      encoding: UTF-8
+      string: ''
+  recorded_at: Mon, 10 Oct 2022 01:50:22 GMT
+- request:
+    method: get
+    uri: https://gist.githubusercontent.com/anchietajunior/listings.csv
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '0'
+      Location:
+      - https://gist.github.com/anchietajunior/listings.csv
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Mon, 10 Oct 2022 01:50:22 GMT
+      Via:
+      - 1.1 varnish
+      X-Served-By:
+      - cache-gig2250054-GIG
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1665366623.685422,VS0,VE180
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Fastly-Request-Id:
+      - 23dca826786204773b553969729d95c4f6303548
+      Expires:
+      - Mon, 10 Oct 2022 01:55:22 GMT
+      Source-Age:
+      - '0'
+      Vary:
+      - Authorization,Accept-Encoding
+    body:
+      encoding: UTF-8
+      string: ''
+  recorded_at: Mon, 10 Oct 2022 01:50:22 GMT
+- request:
+    method: get
+    uri: https://gist.github.com/anchietajunior/listings.csv
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Mon, 10 Oct 2022 01:50:23 GMT
+      Content-Type:
+      - text/plain; charset=utf-8
+      Vary:
+      - X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept-Encoding, Accept,
+        X-Requested-With
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Frame-Options:
+      - deny
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - '0'
+      Referrer-Policy:
+      - origin-when-cross-origin, strict-origin-when-cross-origin
+      Expect-Ct:
+      - max-age=2592000, report-uri="https://api.github.com/_private/browser/errors"
+      Content-Security-Policy:
+      - default-src 'none'; base-uri 'self'; connect-src 'self'; form-action 'self';
+        img-src 'self' data:; script-src 'self'; style-src 'unsafe-inline'
+      Set-Cookie:
+      - _gh_sess=WnsmaNa15JR%2BCFW1L6LxtO%2BlSDCOO%2F7Zsh8H4kR97dbUU%2BvlH8jJTnDVgTo8DaRTNbYgSnw88p7L21sgAwYEXsiDILnK%2Fxqd3kXxCwx60%2FuH%2BzAjiJvhS%2FpkbU9DnFhflW5lJaoynud54sZfpcBMa%2FcxIlnewWIFqZCxHI0TT8DMyZ%2BPSgwiwcO0kYd0GOQbhr0rmD7mX7ZghET5u877UjpirdmhuqmHsr0bBwpCGZ0W8JVfYFwtQiz10kDFbWEzhd9cF%2BCo%2FbMUL%2FGEx%2FUsWg%3D%3D--FBLv%2B%2B7KdDPPqXNd--nYUydscl05Cke1MW3ohTqw%3D%3D;
+        Path=/; HttpOnly; Secure; SameSite=Lax
+      - _octo=GH1.1.1670100796.1665366623; Path=/; Domain=github.com; Expires=Tue,
+        10 Oct 2023 01:50:23 GMT; Secure; SameSite=Lax
+      - logged_in=no; Path=/; Domain=github.com; Expires=Tue, 10 Oct 2023 01:50:23
+        GMT; HttpOnly; Secure; SameSite=Lax
+      Content-Length:
+      - '40'
+      X-Github-Request-Id:
+      - F2CC:4136:C0492E:DF1C4B:63437A5F
+    body:
+      encoding: ASCII-8BIT
+      string: Not Found
+  recorded_at: Mon, 10 Oct 2022 01:50:23 GMT
+recorded_with: VCR 6.1.0

@@ -1,0 +1,21 @@
+<tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+  <td class="px-2 first:pl-5 last:pr-5 py-3 whitespace-nowrap w-px">
+    <div class="font-medium text-slate-800"><%= real_state.source_identifier %></div>
+  </td>
+
+  <td class="px-2 first:pl-5 last:pr-5 py-3 whitespace-nowrap w-px">
+    <div class="font-medium text-slate-800"><%= real_state.product_name %></div>
+  </td>
+
+  <td class="px-2 first:pl-5 last:pr-5 py-3 whitespace-nowrap w-px">
+    <div class="font-medium text-slate-800"><%= real_state.city.to_s %></div>
+  </td>
+
+  <td class="px-2 first:pl-5 last:pr-5 py-3 whitespace-nowrap w-px">
+    <div class="font-medium text-slate-800"><%= real_state.postcode %></div>
+  </td>
+
+  <td class="px-2 first:pl-5 last:pr-5 py-3 whitespace-nowrap w-px">
+      <%= link_to "Details", real_state_path(real_state), data: { turbo_frame: 'modal' } %>
+  </td>
+</tr>

@@ -1,0 +1,13 @@
+<div class="flex flex-col">
+    <header>
+      <h1 class="text-xl mb-10">Real State <%= real_state.source_identifier %></h1>
+    </header>
+
+    <div class="mt-10">
+      <ul>
+        <li><%= real_state.street_address %></li>
+        <li><%= real_state.postcode %></li>
+        <li><%= real_state.city.to_s %></li>
+      </ul>
+    </div>
+</div>

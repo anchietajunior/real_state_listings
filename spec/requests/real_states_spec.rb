@@ -1,0 +1,11 @@
+# frozen_string_literal: true
+require "rails_helper"
+
+RSpec.describe("RealStates", type: :request) do
+  describe "GET /index" do
+    it "returns http success" do
+      get "/real_states"
+      expect(response).to(have_http_status(:success))
+    end
+  end
+end
